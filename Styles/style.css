@@ -196,6 +196,57 @@ main{
     font-size: 16px;
     font-weight: 400;
 }
-.resume-section .resume-btn{
+.resume-section .resume-btn button{
     margin-top: 50px;
+    width: 230px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Footer Section Styles */
+footer .footer-section{
+    display: flex;
+    gap: 110px;
+    background: rgba(255, 248, 243, 1);
+    margin-top: 130px;
+    padding: 130px 230px 0px 230px;
+}
+footer .footer-section .left-side h1{
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+footer .footer-section .left-side p{
+    color: rgba(71, 71, 71, 1);
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+footer .footer-section .left-side img{
+    margin-right: 10px;
+}
+footer .footer-section .right-side input{
+    display: block;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 200px 5px 18px;
+    width: 461px;
+    height: 64px;
+    margin-bottom: 25px;
+}
+footer .footer-section .right-side textarea{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 18px 200px 130px 18px;
+    border: 0;
+    width: 461px;
+    height: 180px;
+    margin-bottom: 25px;
+}
+footer .footer-section .right-side button{
+    width: 230px;
+    font-size: 20px;
+    font-weight: 600;
 }
