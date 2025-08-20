@@ -116,6 +116,7 @@ main{
     color: rgba(24, 24, 24, 1);
     font-size: 35px;
     font-weight: 600;
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 .about p{
@@ -123,8 +124,12 @@ main{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
+    padding: 0px 20px 0px 20px;
 }
-
+.about-section .about-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
 /* Skill Section Styles */
 .skill-section{
     margin-top: 130px;
