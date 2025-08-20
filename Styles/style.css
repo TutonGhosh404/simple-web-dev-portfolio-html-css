@@ -5,3 +5,88 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* Shared Styles */
+.same-color{
+    color: #FD6E0A;
+}
+.same-btn{
+    width: 150px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 230px 0px 230px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+}
+nav h1{
+    font-size: 45px;
+    font-weight: 400px;
+}
+nav li{
+    color: rgba(71, 71, 71, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Header Styles */
+.header{
+    background-image: url(../Assets/images/developer.png), url(../Assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+    background-color: rgba(255, 248, 243, 1);
+}
+header .banner{
+    display: flex;
+    justify-content: space-between;
+}
+header .banner div{
+    margin-left: 150px;
+}
+header .banner-title-1{
+    margin-bottom: 5px;
+    color: rgba(71, 71, 71, 1);
+    font-size: 65px;
+    font-weight: 400;
+}
+header .banner-title-2{
+    margin: 5px 0px 10px 0px;
+    color: rgba(24, 24, 24, 1);
+    font-size: 85px;
+    font-weight: 600;
+}
+header .banner p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+}
+header .banner{
+    margin: 0px 70px 0px 80px;
+}
+header .banner button{
+    margin-top: 15px;
+    width: 230px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+header .banner .btn-2{
+    background: rgba(255, 248, 243, 1);
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
